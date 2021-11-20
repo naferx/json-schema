@@ -8,7 +8,7 @@ Personal notes exploring [JSON Schema](https://json-schema.org/)
 
 
 ## Use cases
-- Describes your existing data format(s). 
+- Describes your existing data format(s).
 - Provides clear human- and machine- readable documentation.
 - Validates data which is useful for:
    - Automated testing.
@@ -23,11 +23,13 @@ JSON Schema is a proposed IETF standard that provides metadata and describes JSO
 ### Terminology
 
 Schema Keyword: $schema and $id.
+
 Schema Annotations: title and description.
+
 Validation Keyword: type.
 
-  
-For this JSON 
+
+For this JSON
 
     {
         "productId": 1,
