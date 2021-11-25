@@ -59,5 +59,20 @@ The corresponding JSON Schema would be:
 
 
 
+## Fundamentals
+
+JSON -> simple data interchange format. Based on data structures/types: object, array, number, string, boolean, null.
+With simple data types, all kinds of structured data can be represented.
+
+
+JSON Schema -> Declarative format for “describing the structure of other data” written in JSON. We need to know what fields are expected, and how the values are represented.
+
+{ } -> empty object. It accepts any valid JSON
+
+### Keywords
+type: Specifies the data type for the schema. Possible values: string, number, integer, object, array, boolean, null 
+
+
 ## References
  - https://json-schema.org/blog/posts/bundling-json-schema-compound-documents
+ - https://json-everything.net/

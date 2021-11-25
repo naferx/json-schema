@@ -1,0 +1,36 @@
+//string
+{
+  "type": "string"
+}
+
+  "Blah blah"
+
+//boolean
+{
+  "type": "boolean"
+}
+
+  false
+
+
+//object
+{
+  "type": "object"
+  ...
+}
+
+{
+  "user": { ... }
+}
+
+
+//array
+{
+  "type": "array"
+}
+
+[
+  1,
+  2,
+  3
+]
